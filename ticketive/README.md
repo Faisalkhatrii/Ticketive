@@ -4,6 +4,14 @@ A comprehensive bus and train booking platform built with React frontend and Dja
 
 ## Features
 
+### 🔧 **Advanced Admin Panel**
+- **Comprehensive Dashboard**: Real-time analytics and statistics
+- **User Management**: Complete user administration with custom fields
+- **Train & Bus Management**: Full CRUD operations with inline editing
+- **Booking Management**: Advanced booking oversight with payment tracking
+- **Revenue Analytics**: Detailed financial reporting and insights
+- **Visual Enhancements**: Color-coded status indicators and rich data display
+
 ### 🎫 Complete Booking System
 - **Train Booking**: Search trains, select coaches (Sleeper, 3A, 2A, 1A), passenger details
 - **Bus Booking**: Search buses, interactive seat selection, passenger management
@@ -138,6 +146,25 @@ ticketive/
 
    Frontend will be available at: `http://localhost:3000`
 
+### **Admin Panel Access**
+
+1. **Create admin user (if not done)**
+   ```bash
+   python create_admin.py
+   ```
+
+2. **Access admin panel**
+   ```bash
+   # Navigate to: http://localhost:8000/admin/
+   # Username: admin
+   # Password: admin123
+   ```
+
+3. **Create sample bookings for testing**
+   ```bash
+   python manage.py create_sample_bookings
+   ```
+
 ## Usage Guide
 
 ### 1. User Registration/Login
@@ -213,6 +240,10 @@ The application comes with pre-populated sample data:
 ✅ Professional UI with smooth animations  
 ✅ Form validation and error handling  
 ✅ Protected routes and authentication flow  
+✅ **Advanced admin panel with analytics dashboard**  
+✅ **Revenue tracking and booking management**  
+✅ **Color-coded status indicators and visual enhancements**  
+✅ **Inline editing and bulk operations**  
 
 ## Development Notes
 
